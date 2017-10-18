@@ -8,7 +8,7 @@ onSubmit = (e) => {
     const {onClick, completed, text} = this.props
     return(
       <div>
-      <form onSubmit={this.onSubmit}>
+      <form onSubmit={(e) => this.onSubmit(e)}>
         <input type="text" value={this.props.text}/>
         <button type="submit">
        Add
