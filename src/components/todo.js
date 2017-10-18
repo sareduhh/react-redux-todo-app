@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 
 class Todo extends Component{
 onSubmit = (e) => {
+  e.preventDefault()
   this.props.addTodo(e.target.value)
 }
   render(){
