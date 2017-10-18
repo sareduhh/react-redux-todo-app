@@ -5,17 +5,17 @@ const Filter = () => (
   <p>
     Show:
     {" "}
-    <FilterLink filter="SHOW_ALL">
+    <Filters filter="SHOW_ALL">
       All
-    </FilterLink>
+    </Filters>
     {", "}
-    <FilterLink filter="SHOW_INCOMPLETE">
+    <Filters filter="SHOW_INCOMPLETE">
       Incomplete
-    </FilterLink>
+    </Filters>
     {", "}
-    <FilterLink filter="SHOW_COMPLETED">
+    <Filters filter="SHOW_COMPLETED">
       Completed
-    </FilterLink>
+    </Filters>
   </p>
 )
 
